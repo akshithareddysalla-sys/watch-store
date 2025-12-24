@@ -1,0 +1,44 @@
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+.product-card
+{
+    display: flex;
+    flex-wrap:wrap;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 4px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    button{
+        background-color: #0e7e1b;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+h1
+{
+    text-align: center;
+}
+
+p
+{
+    text-align: center;
+}
